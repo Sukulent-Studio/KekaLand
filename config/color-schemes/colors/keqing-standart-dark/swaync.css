@@ -1,0 +1,21 @@
+/* Two variatns of background */
+@define-color bg     #232136;
+@define-color bg-alt #373354;
+
+/* Colors for background on background */
+@define-color bg-on-surf1 #63577d;
+@define-color bg-on-surf2 #433c59;
+@define-color bg-on-surf3 #ea9a97;
+
+/* Base pallete */
+@define-color black   #393552;
+@define-color red     #eb6f92;
+@define-color yellow  #f6c177;
+@define-color green   #a3be8c;
+@define-color cyan    #9ccfd8;
+@define-color blue    #569fba;
+@define-color magenta #f5bde6;
+@define-color white   #e0def4;
+
+/* Foreground color */
+@define-color fg #e0def4;

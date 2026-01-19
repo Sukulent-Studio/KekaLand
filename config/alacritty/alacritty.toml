@@ -1,0 +1,18 @@
+[font]
+# normal = { family = "HurmitNerdFontMono", style = "Regular" }
+# normal = { family = "BigBlueTerm437NerdFontMono", style = "Regular" }
+normal = { family = "AgaveNerdFontMono", style = "Regular" }
+offset = { x = 1, y = 3}
+size = 12.8
+
+[window]
+padding = { x = 25, y = 16 }
+opacity = 0.85
+
+[cursor]
+style = { shape = "Block", blinking = "Off" }
+unfocused_hollow = false
+thickness = 0.1
+
+[general]
+import = ["../color-schemes/custom/alacritty-colors.toml"]

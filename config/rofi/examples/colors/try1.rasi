@@ -1,0 +1,6 @@
+background:                  #15161EFF;
+background-alt:              #32197D;
+foreground:                  #C0CAF5FF;
+active:                      #9878FF;
+selected:                    #33467CFF;
+urgent:                      #7D0075;
