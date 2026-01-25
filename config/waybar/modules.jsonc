@@ -27,7 +27,9 @@
     	"tooltip-format": "{controller_alias}\t{controller_address}\n\n{num_connections} connected",
     	"tooltip-format-connected": "{controller_alias}\t{controller_address}\n\n{num_connections} connected\n\n{device_enumerate}",
     	"tooltip-format-enumerate-connected": "{device_alias}\t{device_address}",
-    	"tooltip-format-enumerate-connected-battery": "{device_alias}\t{device_address}\t{device_battery_percentage}%"
+    	"tooltip-format-enumerate-connected-battery": "{device_alias}\t{device_address}\t{device_battery_percentage}%",
+        "on-click": "~/.config/waybar/scripts/bluetooth-menu.sh"
+        // at: 1258, 58 size: 590, 456
     },
 
     "battery": {
@@ -52,8 +54,9 @@
         "tooltip-format": "{ifname} via {gwaddr} 󰊗 ",
         "tooltip-format-wifi": "{essid} ({signalStrength}%)",
         "tooltip-format-ethernet": "{ifname}  ",
-        "tooltip-format-disconnected": "Disconnected",
-        "max-length": 50
+        "tooltip-format-disconnected": "No Signal",
+        "max-length": 50,
+        "on-click": "~/.config/waybar/scripts/wifi-menu.sh"
     },
 
     "clock#time": {
