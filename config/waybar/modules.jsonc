@@ -44,6 +44,18 @@
         "max-length": 25
     },
 
+    "battery#alone": {
+        "interval": 60,
+        "states": {
+            "warning": 30,
+            "critical": 18
+        },
+        "format": "{capacity}% {icon}",
+        "format-icons": [" ", " ", " ", " ", " "],
+        "tooltip-format": "{timeTo}",
+        "max-length": 25
+    },
+
     "network": {
         // "interface": "wlp0s20f3",
         "interface": "wlan0",
@@ -116,7 +128,15 @@
             "battery",
             "network"
         ]
-    }, 
+    },
+    
+    "group/net-info": {
+        "orientation": "horizontal",
+        "modules": [
+            "bluetooth",
+            "network"
+        ]
+    },
 
     "group/time": {
         "orientation":"vertical",

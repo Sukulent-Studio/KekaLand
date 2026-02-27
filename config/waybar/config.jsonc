@@ -22,7 +22,9 @@
 
     "modules-right": [
         "group/load-info",
-        "group/base-info",
+        // "group/base-info",
+        "group/net-info",
+        "battery#alone",
         "hyprland/language"
     ]
     
