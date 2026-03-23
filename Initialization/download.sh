@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo pacman -S --needed swww zsh rofi waybar swaync alacritty socat jq nwg-look flameshot iwd bluez bluetui wiremix hypridle nautilus exa
+sudo pacman -S --needed swww zsh rofi waybar swaync alacritty socat jq nwg-look flameshot iwd bluez bluetui wiremix hypridle nautilus exa swayosd
 
 yay -S --needed nautilus-open-any-terminal actions-for-nautilus-git nmtui-go
 
